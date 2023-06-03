@@ -24,3 +24,4 @@ Route::get('students', function(){
 });
 
 Route:: get('students', [StudentController::class, 'index']);
+Route:: post('students', [StudentController::class, 'store']);
